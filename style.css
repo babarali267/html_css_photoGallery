@@ -1,0 +1,21 @@
+
+body{
+   padding: 2rem;
+}
+
+.parent_container,.child_container{
+  display: flex;
+}
+.parent_container {
+  width: 100%;
+  justify-content: center;
+  gap: 30px;
+}
+
+.child_container {
+  width: 30%;
+  height: auto;
+  flex-direction: column;
+   gap: 30px;
+  
+}
